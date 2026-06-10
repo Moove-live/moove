@@ -854,6 +854,7 @@ body{background:var(--navy-800);}
 .gh-c{grid-column:2;grid-row:2;}
 .gh-d{grid-column:3;grid-row:2;}
 .gh-e{grid-column:1 / 4;grid-row:3;}
+.gh-e img{object-position:center 25%;}
 @media(max-width:920px){.gal2-grid{grid-template-columns:1fr 1fr;grid-template-rows:none;grid-auto-rows:200px;}.gh-a,.gh-b,.gh-c,.gh-d,.gh-e,.gh-f{grid-column:auto;grid-row:auto;}}
 @media(max-width:560px){.gal2-grid{grid-template-columns:1fr;grid-template-rows:none;grid-auto-rows:220px;}.gh-a,.gh-b,.gh-c,.gh-d,.gh-e{grid-column:1;grid-row:auto;}.gh-f{grid-column:1;grid-row:span 2;}}
 
@@ -1135,10 +1136,8 @@ body{background:var(--navy-800);}
         <div class="field"><label>Téléphone</label><input type="tel" name="telephone" placeholder="06 00 00 00 00"></div>
       </div>
       <div class="field"><label>Email</label><input type="email" name="email" required="" placeholder="vous@email.com"></div>
-      <div class="field-row">
-        <div class="field"><label>Type d'événement</label><select name="type_evenement"><option>À thème (mariage, anniversaire…)</option><option>Professionnel / BtoB</option><option>Thé dansant</option><option>Autre</option></select></div>
-        <div class="field"><label>Nombre d'invités</label><input type="text" name="nombre_invites" placeholder="ex. 80"></div>
-      </div>
+      <div class="field"><label>Type d'événement</label><select name="type_evenement"><option>À thème (mariage, anniversaire…)</option><option>Professionnel / BtoB</option><option>Thé dansant</option><option>Autre</option></select></div>
+      <div class="field"><label>Nombre d'invités</label><input type="text" name="nombre_invites" placeholder="ex. 80"></div>
       <div class="field"><label>Votre projet</label><textarea name="message"></textarea></div>
       <button type="submit" class="btn btn-primary">Demander mon devis <span class="btn-arrow">→</span></button>
     </form>
