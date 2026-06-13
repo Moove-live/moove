@@ -726,8 +726,8 @@ body.nav-open{overflow:hidden;}
    · Avis (Éditorial + cartes Pulse) · Contact Éditorial
    ============================================================ */
 body{background:var(--navy-800);}
-.nav-logo{height:106px;}
-@media (max-width:820px){.nav-logo{height:54px;}}
+.nav-logo{height:88px;}
+@media (max-width:820px){.nav-logo{height:48px;}}
 .hero2 p.lead, .hero2 p.lead *{font-size:1.18rem !important;font-family:var(--display-font, inherit) !important;color:var(--text-dim) !important;line-height:1.55 !important;margin:0 0 36px !important;}
 .am1 .ph-img{object-fit:cover;object-position:center center;}
 
